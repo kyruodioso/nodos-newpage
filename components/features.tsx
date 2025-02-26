@@ -39,10 +39,10 @@ export default function Features() {
             </span>
           </div>
           <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Potencia tu negocio con nuestro ERP
+            Potencie su negocio con nuestro ERP
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-indigo-200/65">
-            Descubre las herramientas que te ayudarán a optimizar tus operaciones, aumentar la eficiencia y escalar tu negocio.
+            Descubra las herramientas que le ayudarán a optimizar sus operaciones, aumentar la eficiencia y escalar su negocio.
           </p>
         </div>
 
@@ -60,7 +60,7 @@ export default function Features() {
               Gestión de inventario
             </h3>
             <p className="text-indigo-200/65">
-              Optimiza los niveles de stock, rastrea inventario en tiempo real y automatiza los procesos de reposición para reducir costos y mejorar la eficiencia.
+              Optimice los niveles de stock, rastree inventario en tiempo real y automatice los procesos de reposición para reducir costos y mejorar la eficiencia.
             </p>
           </article>
 
@@ -77,7 +77,7 @@ export default function Features() {
               Gestión de productos
             </h3>
             <p className="text-indigo-200/65">
-              Centraliza catálogos de productos, sincroniza atributos como SKU y precios, y notifica a los interesados sobre cambios en tiempo real.
+              Centralice catálogos de productos, sincronice atributos como SKU y precios, y notifique a los interesados sobre cambios en tiempo real.
             </p>
           </article>
 
@@ -94,7 +94,7 @@ export default function Features() {
               Punto de venta (POS)
             </h3>
             <p className="text-indigo-200/65">
-              Valida la disponibilidad de stock, procesa ventas y gestiona pagos de manera fluida en el punto de venta.
+              Valide la disponibilidad de stock, procese ventas y gestione pagos de manera fluida en el punto de venta.
             </p>
           </article>
 
@@ -111,7 +111,7 @@ export default function Features() {
               Integración con E-Commerce
             </h3>
             <p className="text-indigo-200/65">
-              Publica productos en línea, procesa pedidos y confirma pagos directamente desde tu plataforma de comercio electrónico.
+              Publique productos en línea, procese pedidos y confirme pagos directamente desde su plataforma de comercio electrónico.
             </p>
           </article>
 
@@ -128,7 +128,7 @@ export default function Features() {
               Procesamiento de pedidos
             </h3>
             <p className="text-indigo-200/65">
-              Recibe, valida y prepara pedidos de manera eficiente mientras coordinas la logística para una entrega oportuna.
+              Reciba, valide y prepare pedidos de manera eficiente mientras coordina la logística para una entrega oportuna.
             </p>
           </article>
 
@@ -145,7 +145,7 @@ export default function Features() {
               Gestión de pagos
             </h3>
             <p className="text-indigo-200/65">
-              Valida y registra pagos de forma segura, genera informes financieros e integra con pasarelas de pago como Stripe o MercadoPago.
+              Valide y registre pagos de forma segura, genere informes financieros e integre con pasarelas de pago como Stripe o MercadoPago.
             </p>
           </article>
         </div>

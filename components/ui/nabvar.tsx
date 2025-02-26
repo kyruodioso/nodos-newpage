@@ -23,12 +23,12 @@ const Navbar: React.FC<NavbarProps> = () => {
 
         {/* Menú en pantallas grandes */}
         <div className="hidden md:flex space-x-6 items-center">
-          <NavLink href="/" text="Home" delay={200} />
-          <NavLink href="/caracteristicas" text="Features" delay={400} />
-          <NavLink href="/precios" text="Pricing" delay={600} />
+          <NavLink href="/" text="Inicio" delay={200} />
+          <NavLink href="/caracteristicas" text="Características" delay={400} />
+          <NavLink href="/precios" text="Precios" delay={600} />
           <NavLink href="/demo" text="Demo" delay={800} />
-          <NavLink href="/contacto" text="Contact" delay={1200} />
-          <NavLink href="/team" text="Team" delay={1400} />
+          <NavLink href="/contacto" text="Contacto" delay={1200} />
+          <NavLink href="/equipo" text="Equipo" delay={1400} />
           <NavLink href="/faq" text="FAQ" delay={1600} />
         </div>
 

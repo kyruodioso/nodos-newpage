@@ -1,6 +1,6 @@
-import Logo from "./logo";
 import Image from "next/image";
 import FooterIllustration from "@/public/images/footer-illustration.svg";
+import Logo from "./logo";
 
 export default function Footer() {
   return (
@@ -16,20 +16,20 @@ export default function Footer() {
             src={FooterIllustration}
             width={1076}
             height={378}
-            alt="Footer illustration"
+            alt="Ilustración del footer"
           />
         </div>
-        <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
-          {/* 1st block */}
+        <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(3,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
+          {/* 1er bloque: Producto */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Product</h3>
+            <h3 className="text-sm font-medium text-gray-200">Producto</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Features
+                  Características
                 </a>
               </li>
               <li>
@@ -37,7 +37,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Integrations
+                  Integraciones
                 </a>
               </li>
               <li>
@@ -45,7 +45,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Pricing &amp; Plans
+                  Precios y Planes
                 </a>
               </li>
               <li>
@@ -53,7 +53,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Changelog
+                  Nuestro Método
                 </a>
               </li>
               <li>
@@ -61,75 +61,39 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Our method
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  User policy
+                  Política de Usuario
                 </a>
               </li>
             </ul>
           </div>
-          {/* 2nd block */}
+
+          {/* 2do bloque: Empresa */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Company</h3>
+            <h3 className="text-sm font-medium text-gray-200">Empresa</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  About us
+                  Sobre Nosotros
                 </a>
               </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Diversity &amp; Inclusion
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Careers
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Financial statements
-                </a>
-              </li>
+   
             </ul>
           </div>
-          {/* 3rd block */}
+
+          {/* 3er bloque: Soporte */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Resources</h3>
+            <h3 className="text-sm font-medium text-gray-200">Soporte</h3>
             <ul className="space-y-2 text-sm">
+
               <li>
                 <a
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Community
+                  Términos de Servicio
                 </a>
               </li>
               <li>
@@ -137,70 +101,16 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Terms of service
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Report a vulnerability
+                  Reportar un Problema
                 </a>
               </li>
             </ul>
           </div>
-          {/* 4th block */}
-          <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">
-              Content Library
-            </h3>
-            <ul className="space-y-2 text-sm">
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Templates
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Tutorials
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Knowledge base
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Learn
-                </a>
-              </li>
-              <li>
-                <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
-                  href="#0"
-                >
-                  Cookie manager
-                </a>
-              </li>
-            </ul>
-          </div>
-          {/* 5th block */}
+
+          {/* 4to bloque: Logo y redes sociales */}
           <div className="col-span-2 md:col-span-4 lg:col-span-1 lg:text-right">
             <div className="mb-3">
+              {/* Logo de la empresa */}
               <Logo />
             </div>
             <div className="text-sm">
@@ -211,7 +121,7 @@ export default function Footer() {
                   className="text-indigo-200/65 transition hover:text-indigo-500"
                   href="#0"
                 >
-                  Terms
+                  Términos
                 </a>
               </p>
               <ul className="inline-flex gap-1">

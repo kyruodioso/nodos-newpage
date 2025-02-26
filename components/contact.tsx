@@ -11,10 +11,10 @@ export default function ContactSection() {
             </span>
           </div>
           <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Ponte en contacto con nosotros
+            Pongase en contacto con nosotros
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-indigo-200/65">
-            ¿Tienes alguna pregunta o necesitas más información? Estamos aquí para ayudarte. Completa el formulario o utiliza nuestros datos de contacto.
+            ¿Tiene alguna pregunta o necesita más información? Estamos aquí para ayudarle. Complete el formulario o utilice nuestros datos de contacto.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-indigo-200">Teléfono</h3>
-                <p className="text-indigo-200/65">+1 (234) 567-890</p>
+                <p className="text-indigo-200/65">+54 (011) 123-567-890</p>
               </div>
             </div>
             <div className="flex items-start space-x-4">
@@ -99,7 +99,7 @@ export default function ContactSection() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-indigo-200">Correo electrónico</h3>
-                <p className="text-indigo-200/65">info@erpempresa.com</p>
+                <p className="text-indigo-200/65">solsteinninnovations@gmail.com</p>
               </div>
             </div>
           </div>

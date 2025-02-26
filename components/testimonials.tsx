@@ -55,7 +55,7 @@ export default function MetricsSection() {
             Impacto Real
           </h2>
           <p className="text-lg text-indigo-200/65">
-            Descubre cómo nuestro ERP ha transformado negocios con resultados medibles.
+            Descubra cómo nuestro ERP ha transformado negocios con resultados medibles.
           </p>
         </div>
 

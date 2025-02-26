@@ -14,7 +14,7 @@ export default function FAQSection() {
     {
       question: "¿Qué es un ERP y cómo puede ayudar a mi negocio?",
       answer:
-        "Un ERP (Enterprise Resource Planning) es un sistema integrado que gestiona los procesos clave de tu negocio, como inventario, finanzas, ventas y más. Ayuda a mejorar la eficiencia, reducir costos y tomar decisiones informadas.",
+        "Un ERP (Enterprise Resource Planning) es un sistema integrado que gestiona los procesos clave de su negocio, como inventario, finanzas, ventas y más. Ayuda a mejorar la eficiencia, reducir costos y tomar decisiones informadas.",
     },
     {
       question: "¿Es difícil implementar un ERP en mi empresa?",
@@ -24,22 +24,17 @@ export default function FAQSection() {
     {
       question: "¿Puedo personalizar el ERP según las necesidades de mi negocio?",
       answer:
-        "Sí, nuestro ERP es altamente personalizable. Puedes adaptar módulos y funcionalidades para que se ajusten a los procesos específicos de tu empresa.",
-    },
-    {
-      question: "¿Qué tipo de soporte técnico ofrecen?",
-      answer:
-        "Ofrecemos soporte técnico 24/7 a través de chat, correo electrónico y teléfono. Nuestro equipo está siempre disponible para ayudarte.",
+        "Sí, nuestro ERP es altamente personalizable. Usted puede adaptar módulos y funcionalidades para que se ajusten a los procesos específicos de su empresa.",
     },
     {
       question: "¿El ERP es compatible con otras herramientas que uso?",
       answer:
-        "Sí, nuestro ERP se integra con herramientas populares como Shopify, WooCommerce, Google Workspace y más. Consulta nuestra lista completa de integraciones.",
+        "Sí, nuestro ERP se integra con herramientas populares como Shopify, WooCommerce, Google Workspace y más. Consulte nuestra lista completa de integraciones.",
     },
     {
       question: "¿Qué seguridad ofrece el ERP para mis datos?",
       answer:
-        "Utilizamos cifrado de última generación y protocolos de seguridad avanzados para proteger tus datos. Además, realizamos copias de seguridad automáticas y frecuentes.",
+        "Utilizamos cifrado de última generación y protocolos de seguridad avanzados para proteger sus datos. Además, realizamos copias de seguridad automáticas y frecuentes.",
     },
   ];
 
@@ -63,10 +58,10 @@ export default function FAQSection() {
             </span>
           </div>
           <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-            Resolvemos tus dudas
+            Resolvemos sus dudas
           </h2>
           <p className="mx-auto max-w-2xl text-lg text-indigo-200/65">
-            Aquí encontrarás respuestas a las preguntas más comunes sobre nuestro ERP. Si no encuentras lo que buscas, contáctanos.
+            Aquí encontrará respuestas a las preguntas más comunes sobre nuestro ERP. Si no encuentra lo que busca, contáctenos.
           </p>
         </div>
 
